@@ -1,7 +1,6 @@
 ### -- Q2
 PROMPT Question 5.2;
--- List last name and first name of authors who have written both
--- Short Story and Horror books. 
+-- List last name and first name of authors who have written both Short Story and Horror books. 
 
 In general, there could be two different authors with the same name, one who has written a horror book and another who has written short stories. 
 so, remember to use the primary key to identify to get data.
@@ -24,14 +23,13 @@ so take the join into account.
 
 ### -- Q4
 PROMPT Question 5.4;
--- Find id, first name, and last name of authors who wrote books for all the 
--- subjects of books written by Edgar Allen Poe.
+-- Find id, first name, and last name of authors who wrote books for all the subjects of books written by Edgar Allen Poe.
 
 ha, it's funny when using 'where not exists'
 in  general:
 the outer we need, 
 where not exists( 
-the bridge
-where not exists(
 the origin data
+where not exists(
+the bridge
 where O.id=B.id and B.id=G.id
